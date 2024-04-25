@@ -1,0 +1,349 @@
+/* Define a keyframe animation */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to the .animated-text element */
+#banner_para h1 {
+    animation: slideIn 1.25s ease-in-out;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    margin: -3px;
+    padding: 0;
+    /* display: inline-block;
+ */
+    /* float: right; */
+}
+
+li {
+    display: inline-block;
+    padding: 2px;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+    
+}
+
+.nav {
+    /* border: 5px solid black; */
+    background-color: #0a3d62;
+    /* position: fixed; */
+}
+#navbar{
+    
+    /* background-color: #0a3d62; */
+    padding: 8px;
+}
+
+#menu {
+    float: right;
+
+}
+
+#logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40%;
+    margin-right: 50%;
+    
+    /* text-align: center; */
+}
+.heading{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+/* h2{
+ text-align: center;
+
+} */
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    /* padding: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-bottom: 3px; */
+    /* border: 1px solid red; */
+}
+
+a:hover {
+    /* color: black; */
+    /* background: #3c6382; */
+    font-weight: bold;
+    color: #eb2f06;
+    /* border: 1px solid #273c75; */
+    /* border-radius: 35px;  */
+}
+
+.banner {
+    background: url(utils/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+ /* #homecontainer{
+    border: 5px solid yellow;
+    margin-bottom: -10px;
+}  
+#banner_para{
+    border: 3px solid red;
+} */
+
+
+#banner_para h1 {
+    /* text-align: start; */
+    margin-top: 210px;
+    padding: 10px;
+    /* margin-left: 220px; */
+    
+    /* padding: 30px; */
+    font-size: 4rem;
+    color: white;
+    font-family: 'Aclonica', sans-serif;
+    
+}
+#banner_para h2{
+    color: white;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 250px;
+    padding: 5px;
+    /* padding: 30px; */
+}
+
+#about{
+    border: #ecf0f1 solid 3px;
+    background: #ecf0f1;
+}
+
+.aboutportion{
+    background: #ecf0f1;
+}
+
+#about h2{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+
+
+#aboutrow1 img{
+    /* float: left; */
+    /* margin-top: 40px; */
+    
+    /* margin-left: 20px; */
+    /* margin-bottom: 20px; */
+    /* height: 200px; */
+    /* width: 270px; */
+    margin-top: 80px;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    
+}
+#aboutrow2{
+    /* border: 3px solid blue; */
+    margin-bottom: 100px;
+    /* background: #0a3d62; */
+}
+#aboutrow2 p{
+    color: white;
+    padding: 30px;
+}
+#aboutkirow{
+    margin-bottom: 70px;
+    border-radius: 10px;
+    /* border: red solid 5px; */
+    background: #0a3d62;
+}
+#service{
+    border: 0.5px solid #a1e2f100;
+}
+.serviceportion{
+    background: #a1e3f193;
+}
+#serviceskirow{
+    margin-bottom: 60px;
+}
+
+#card{
+    /* border: 1px solid black; */
+    margin: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 10px;
+    background: #8dd0e9b0;
+}
+#card:hover{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Customize the shadow properties as needed */
+    transition: box-shadow 0.3s ease;
+}
+
+#service h2{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 2.5rem;
+}
+
+#card i{
+    font-size: 50px;
+    /* margin: 30px; */
+    /* color:#0a3d62; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#card p{
+    color: black;
+}
+#card h4{
+    color: #eb2f06;
+}
+
+#resume{
+    border: 0.5px solid #ecf0f1;
+}
+
+#resumecard{
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border: #b4b6b88f solid 1px;
+    border-radius: 20px;
+    background: #dadcdd8f;
+}
+#btech{
+    margin: 10px;
+    padding: 5px;
+}
+#btech h6{
+    margin: 10px;
+}
+#skill{
+    display: flex;
+    margin: 15px;
+}
+#skill img{
+    width: 30px;
+
+}
+
+#resume h2{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 2.5rem;
+}
+#resumecard h4{
+    font-size: 2rem;
+    margin: 15px;
+}
+#resumecard p{
+    text-align: start;
+    margin: 10px;
+    padding:10px;
+}
+.resumepart{
+    background: #ecf0f1;
+}
+.Yash{
+    color: #eb2f06;
+    font-weight: 600;
+}
+
+
+#desc{
+    height: 180px;
+    width: 880px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#project{
+    background: #cfe1ee;
+    border: 1px solid #ecf0f1;
+}
+#projectimage img{
+    margin-top: 20px;
+    width: 265px;
+    height: 150px;
+
+}
+#project h1{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 2.5rem;
+}
+#projectcard div h3{
+    font-size: large;
+    margin-top: 10px;
+}
+#projectbody{
+    background: #66adbe;
+    margin: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #dad5d5 ;
+}
+#projectcard div a{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+#projectimage2 img{
+    width: 240px;
+    margin-top: 50px;
+}
+#contactme h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 2.5rem;
+}
+#contactme{
+    background: #1c5a86;
+    border: 1px solid #1c5a86;
+    padding: 10px;
+}
+#contactid{
+    display: flex;
+}
+#contactid i{
+    font-size: large;
+    margin: 12px;
+}
+#contactid p{
+    color: white;
+    margin-top: 7px;
+}
+
